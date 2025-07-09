@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 >this is a simple heading</h2>
+    <h1 id="h">basic project</h1>
+    <p id="p"></p>
+    <button onclick="rahul()">click me</button>
+    <script>
+      let r = "red";
+      function rahul() {
+        const rahul = document.getElementById("p");
+        const rohit = document.getElementById("h");
+        rahul.innerText = "hii dekha maine kr liya yrr";
+        if (r =="red") {
+          rohit.style.backgroundColor = "red";
+          r = "blue";
+        } else if (r == "blue") {
+          rohit.style.backgroundColor = "blue";
+         
+        }
+      }
+const sec=document.querySelector("h2")
+sec.onclick=function rahul() {
+  sec.style.backgroundColor="yellow";
+  console.log("hii mai rahul");
+  
+}
+    </script>
+  </body>
+</html>
